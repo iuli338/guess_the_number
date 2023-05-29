@@ -101,7 +101,8 @@ int main()
 	GenerateRandomNumber();
 	arrayToStr = ArrayToStr();
 	// Se da print la acel array general
-	//PrintArray(); DEBUG
+	std::cout << "DEBUG: ";
+	PrintArray(); // DEBUG
 	std::string guessNumberStr("");
 	bool Guessed = false;
 	do {
